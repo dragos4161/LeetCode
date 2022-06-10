@@ -16,8 +16,8 @@ class Solution(object):
                 return False
         return True
 
-s = Solution()
-if s.isHappy(2) == True:
+sol = Solution()
+if sol.isHappy(1) == True:
     print("Happy number")
 else:
     print("Not so happy number")
