@@ -13,8 +13,9 @@ class Solution(object):
         :rtype: bool
         """
 
+
 s = Solution()
-if s.areAlmostEqual("bank","kanb") == True:
+if s.areAlmostEqual("bank", "kanb") is True:
     print("It can be done")
 else:
     print("It can't be done")
